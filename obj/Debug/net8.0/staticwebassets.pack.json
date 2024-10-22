@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Spyro\\source\\repos\\BlazorAuthenticationWithoutAspCoreIdentity\\BlazorAuthenticationWithoutAspCoreIdentity\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAuthenticationWithoutAspCoreIdentity.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorAuthenticationWithoutAspCoreIdentity.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Spyro\\source\\repos\\BlazorAuthenticationWithoutAspCoreIdentity\\BlazorAuthenticationWithoutAspCoreIdentity\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Spyro\\source\\repos\\BlazorAuthenticationWithoutAspCoreIdentity\\BlazorAuthenticationWithoutAspCoreIdentity\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Spyro\\source\\repos\\BlazorAuthenticationWithoutAspCoreIdentity\\BlazorAuthenticationWithoutAspCoreIdentity\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Spyro\\source\\repos\\BlazorAuthenticationWithoutAspCoreIdentity\\BlazorAuthenticationWithoutAspCoreIdentity\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAuthenticationWithoutAspCoreIdentity.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorAuthenticationWithoutAspCoreIdentity.props",
+      "PackagePath": "build\\BlazorAuthenticationWithoutAspCoreIdentity.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorAuthenticationWithoutAspCoreIdentity.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAuthenticationWithoutAspCoreIdentity.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorAuthenticationWithoutAspCoreIdentity.props",
+      "PackagePath": "buildTransitive\\BlazorAuthenticationWithoutAspCoreIdentity.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

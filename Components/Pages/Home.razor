@@ -1,0 +1,38 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+
+<div class="row">
+
+    <div class="col-12">
+
+        <div class="card-body">
+
+            <AuthorizeView>
+                <NotAuthorized>
+                    <span>
+                        You are not logged in
+
+                        <a class="fw-bolder" href="/login">
+                            Click here to login    
+                        </a>
+                    </span>
+
+                </NotAuthorized>
+
+                <Authorized>
+                    <span>
+                        Logged is as <b>
+                            @context?.User?.Identity?.Name
+                        </b>
+                    </span>
+                </Authorized>
+
+            </AuthorizeView>
+
+        </div>
+
+    </div>
+
+</div>

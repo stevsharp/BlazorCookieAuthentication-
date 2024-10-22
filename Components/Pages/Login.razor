@@ -1,0 +1,31 @@
+﻿@page "/login"
+
+<h3>Login</h3>
+
+<EditForm Model="@LoginViewModel" OnValidSubmit="AuthenticateUser" FormName="LoginForm">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3 text-center flex-column">
+        <h3>LOGIN</h3>
+    </div>
+
+    <div class="mb-3">
+        <label>User Name</label>
+        <InputText @bind-Value="@LoginViewModel.UserName" class="form-control" placeholder="Username" />
+        <ValidationMessage For="() => LoginViewModel.UserName" />
+    </div>
+
+    <div class="mb-3">
+        <label>Password</label>
+        <InputText @bind-Value="LoginViewModel.Password" placeholder="Password" type="password" class="form-control" />
+        <ValidationMessage For="() => LoginViewModel.Password" />
+    </div>
+
+    <div class="mb-3 text-center">
+        <span class="text-danger">@ErrorMessage</span>
+    </div>
+
+    <div class="mb-3 d-grid gap-2">
+        <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+</EditForm>
